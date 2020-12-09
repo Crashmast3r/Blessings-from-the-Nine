@@ -13,10 +13,12 @@ const Blessings = {
     getDivine() {
         let i = Math.floor(Math.random() * this.divine.length);
         return this.divine[i];
-    }
+    },
 
     getBlessing() {
         let i = Math.floor(Math.random() * this.blessing.length);
         return this.blessing[i];
     }
 }
+
+console.log(`You offered a ${Blessings.getOffer()} at the altar. ${Blessings.getDivine()} blesses you with ${Blessings.getBlessing()}!`);
