@@ -1,9 +1,9 @@
 // object containing the arays of the components of the messages
 // and methods for randomizing the output
 const Blessings = {
-    offer: ['Sweet Roll', 'Gold Coin'],
-    divine: ['Talos', 'Mara'],
-    blessing: ['Money', 'Hope', 'Love'],
+    offer: ['Sweet Roll', 'Gold Coin', 'Steel Dagger', 'Ruby', 'Rose'],
+    divine: ['Talos', 'Mara', 'Dibella', 'Arkay', 'Akatosh', 'Julianos', 'Kynareth', 'Stendarr', 'Zenithar'],
+    blessing: ['Riches', 'Hope', 'Love', 'Compassion', 'Luck', 'Courage', 'Strength'],
 
     getOffer() {
         let i = Math.floor(Math.random() * this.offer.length);
